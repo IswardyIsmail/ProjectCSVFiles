@@ -11,7 +11,14 @@
 <p>You can add an element to a dictionary by assigning a value to a new key: my_dict['key3'] = 'value3'. Elements can be updated by assigning a new value to an existing key: my_dict['key1'] = 'new_value1'. Elements can be deleted using the del keyword: del my_dict['key1'].</p>
 
 <h1>5. Dictionary Methods</h1>
-<p>keys(): Returns a new view object that displays a list of all the keys. values(): Returns a new view object that displays a list of all the values. items(): Returns a view object that displays a list of dictionary's key/value tuple pairs. update(): Adds dictionary dict2's key-values pairs to dict. pop(): Removes and returns an element from a dictionary having the given key. clear(): Removes all elements from the dictionary.</p>
+<ul>
+<li><strong>keys()</strong>: Returns a new view object that displays a list of all the keys.</li>
+<li><strong>values()</strong>: Returns a new view object that displays a list of all the values.</li>
+<li><strong>items()</strong>: Returns a view object that displays a list of dictionary's key/value tuple pairs.</li>
+<li><strong>update()</strong>: Adds dictionary dict2's key-values pairs to dict.</li>
+<li><strong>pop()</strong>: Removes and returns an element from a dictionary having the given key.</li>
+<li><strong>clear()</strong>: Removes all elements from the dictionary.</li>
+</ul>
 
 <h1>6. Dictionary Comprehensions</h1>
 <p>Dictionary comprehensions are a way of creating dictionaries using an expression: {key_expression: value_expression for item in iterable}. They can be used to create new dictionaries from existing ones, filter items, and more.</p>
