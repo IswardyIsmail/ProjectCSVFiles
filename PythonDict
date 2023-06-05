@@ -1,0 +1,29 @@
+<h1>1. Introduction</h1>
+<p>Python dictionaries are unordered collections of items. Each item of a dictionary has a key/value pair. Dictionaries are used when we have a set of unique keys that map to values.</p>
+
+<h1>2. Creating Dictionaries</h1>
+<p>An empty dictionary can be created using {} or dict(). A dictionary with initial values can be created like: my_dict = {'key1': 'value1', 'key2': 'value2'}.</p>
+
+<h1>3. Accessing Dictionary Elements</h1>
+<p>You can access the value for a particular key using my_dict['key1']. The get() method can also be used to access elements, like my_dict.get('key1').</p>
+
+<h1>4. Modifying Dictionaries</h1>
+<p>You can add an element to a dictionary by assigning a value to a new key: my_dict['key3'] = 'value3'. Elements can be updated by assigning a new value to an existing key: my_dict['key1'] = 'new_value1'. Elements can be deleted using the del keyword: del my_dict['key1'].</p>
+
+<h1>5. Dictionary Methods</h1>
+<p>keys(): Returns a new view object that displays a list of all the keys. values(): Returns a new view object that displays a list of all the values. items(): Returns a view object that displays a list of dictionary's key/value tuple pairs. update(): Adds dictionary dict2's key-values pairs to dict. pop(): Removes and returns an element from a dictionary having the given key. clear(): Removes all elements from the dictionary.</p>
+
+<h1>6. Dictionary Comprehensions</h1>
+<p>Dictionary comprehensions are a way of creating dictionaries using an expression: {key_expression: value_expression for item in iterable}. They can be used to create new dictionaries from existing ones, filter items, and more.</p>
+
+<h1>7. Looping Through a Dictionary</h1>
+<p>You can loop through the keys of a dictionary with for key in my_dict. You can loop through the values with for value in my_dict.values(). You can loop through the items with for key, value in my_dict.items().</p>
+
+<h1>8. Nested Dictionaries</h1>
+<p>A dictionary can contain dictionaries, this is called a nested dictionary. You can access elements in a nested dictionary like: my_dict['key1']['nested_key1'].</p>
+
+<h1>9. Special Topics</h1>
+<p>Dictionaries are faster than lists when it comes to looking up a key. Only immutable types can be used as dictionary keys.</p>
+
+<h1>10. Conclusion</h1>
+<p>Python dictionaries are a versatile tool for storing and accessing data. There are many methods and techniques to manipulate and interact with dictionaries.</p>
